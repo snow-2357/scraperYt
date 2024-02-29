@@ -1,9 +1,10 @@
 import express from "express";
 import axios from "axios";
+import "dotenv/config";
 
 const app = express();
 const port = 3000;
-const apiKey = "";
+const apiKey = process.env.SECRET_KEY;
 const channelId = "GoogleDevelopers";
 const apiUrl = "https://www.googleapis.com/youtube/v3";
 
