@@ -3,7 +3,7 @@ import axios from "axios";
 
 const app = express();
 const port = 3000;
-const apiKey = "AIzaSyCbBdiekHu5pcHzUipFr4BVrPDFTUY4qzY";
+const apiKey = "";
 const channelId = "GoogleDevelopers";
 const apiUrl = "https://www.googleapis.com/youtube/v3";
 
